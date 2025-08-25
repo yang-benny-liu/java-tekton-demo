@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-startup-service
+  description: My Startup Microservice
+  annotations:
+    # 链接到 GitHub 仓库
+    github.com/project-slug: 'your-org/your-repo'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/yang-benny-liu
